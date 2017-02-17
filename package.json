@@ -1,0 +1,16 @@
+{
+  "name": "coding-exercises-js",
+  "description": "A collection of small exercises, puzzles, and coding problems in JavaScript.",
+  "private": false,
+  "version": "0.0.0",
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-preset-env": "^1.1.4",
+    "babel-register": "^6.18.0",
+    "chai": "~1.8.0",
+    "mocha": "2.0.1"
+  },
+  "scripts": {
+    "test": "mocha --compilers js:babel-register"
+  }
+}
