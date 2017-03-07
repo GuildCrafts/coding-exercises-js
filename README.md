@@ -2,8 +2,6 @@
 
 A collection of small exercises, puzzles, and coding problems in JavaScript.
 
-Base repository for the [Coding Exercises](https://github.com/GuildCrafts/web-development-js/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20%22coding%20exercises%22%20) goals.
-
 ## Exercises
 
 ### Guess The Number
@@ -246,7 +244,7 @@ In the above example, `(7)` would be the proper stripping of parentheses.
 
 **Example Inputs:**
 ```
-((1((23)(45)))6)  
+((1((23)(45)))6)
 
 (((1234)(((5)67))))
 
@@ -255,7 +253,7 @@ In the above example, `(7)` would be the proper stripping of parentheses.
 
 **Example Outputs:**
 ```
-((1((23)(45)))6)  
+((1((23)(45)))6)
 
 ((1234)((5)67))
 
