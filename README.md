@@ -1,3 +1,8 @@
+#useful-tiger
+Roger Camps
+https://github.com/GuildCrafts/web-development-js/issues/144
+
+
 # Coding Exercises in JavaScript
 
 A collection of small exercises, puzzles, and coding problems in JavaScript.
