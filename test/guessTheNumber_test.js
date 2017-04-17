@@ -3,6 +3,9 @@ import guessTheNumber from '../src/guessTheNumber'
 
 describe('guessTheNumber()', () => {
 
-  // Your tests here...
+  it('Should expect something', () => {
+    const theNumber = guessTheNumber()
+    expect(theNumber).to.be.false
+  })
   
 })
