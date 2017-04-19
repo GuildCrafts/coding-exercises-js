@@ -19,5 +19,8 @@
   "scripts": {
     "test": "mocha --compilers js:babel-register",
     "lint": "eslint ./"
+  },
+  "dependencies": {
+    "readline": "^1.3.0"
   }
 }
