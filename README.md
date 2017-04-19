@@ -27,7 +27,7 @@
   - [ ] 6. Where in the JSON?
   - [ ] 7. Who Wants A Date?
   - [ ] 8. Play it again, JavaScript!
-  - [ ] 9. Parens-B-Gone
+  - [X] 9. Parens-B-Gone
   - [ ] 10. Resolving Symlinks
   - [ ] 11. Lairotcaf
   - [ ] 12. String Me Along
