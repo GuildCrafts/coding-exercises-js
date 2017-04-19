@@ -21,16 +21,16 @@
 - [ ] Tests and correct implementations exist for the following exercises (it is recommended that you complete them in this order):
   - [ ] 1. Guess The Number
   - [ ] 2. Scrab-Bag
-  - [ ] 3. String Indices
+  - [X] 3. String Indices
   - [ ] 4. Fibonacci Bases
   - [X] 5. The Disemvowling
-  - [ ] 6. Where in the JSON?
+  - [X] 6. Where in the JSON?
   - [ ] 7. Who Wants A Date?
   - [ ] 8. Play it again, JavaScript!
-  - [ ] 9. Parens-B-Gone
+  - [X] 9. Parens-B-Gone
   - [ ] 10. Resolving Symlinks
   - [ ] 11. Lairotcaf
-  - [ ] 12. String Me Along
+  - [X] 12. String Me Along
   - [ ] 13. Braille
   - [ ] 14. String Permutations
   - [ ] 15. Finite State Gate
