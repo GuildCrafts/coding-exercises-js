@@ -24,7 +24,7 @@
   - [ ] 3. String Indices
   - [ ] 4. Fibonacci Bases
   - [ ] 5. The Disemvowling
-  - [ ] 6. Where in the JSON?
+  - [X] 6. Where in the JSON?
   - [ ] 7. Who Wants A Date?
   - [ ] 8. Play it again, JavaScript!
   - [X] 9. Parens-B-Gone
