@@ -1,4 +1,4 @@
-function stringIndices(string, indice) {
+export default function stringIndices(string, indice) {
  let wordArray = string.replace(",", "").replace("?","").split(" ")
 
 if(indice > wordArray.length || indice < 1) {
