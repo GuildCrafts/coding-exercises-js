@@ -3,8 +3,6 @@ import json from '../src/json'
 import sampleJson from './utilities/sampleJson.json'
 
 describe('json()', () => {
-  console.log(json, sampleJson)
-
   it('Should return a path to 4chan.', () => {
     expect(json(sampleJson, '4chan')).to.equal('favoriteSites -> 1')
   })
