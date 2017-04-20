@@ -2,15 +2,25 @@
   "name": "coding-exercises-js",
   "description": "A collection of small exercises, puzzles, and coding problems in JavaScript.",
   "private": false,
-  "version": "0.0.0",
+  "version": "0.0.1",
+  "licence": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lumodon/coding-exercises-js.git"
+  },
   "devDependencies": {
     "babel-cli": "^6.18.0",
     "babel-preset-env": "^1.1.4",
     "babel-register": "^6.18.0",
     "chai": "~1.8.0",
+    "eslint": "^3.19.0",
     "mocha": "2.0.1"
   },
   "scripts": {
-    "test": "mocha --compilers js:babel-register"
+    "test": "mocha --compilers js:babel-register",
+    "lint": "eslint ./"
+  },
+  "dependencies": {
+    "readline": "^1.3.0"
   }
 }

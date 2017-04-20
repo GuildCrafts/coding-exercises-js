@@ -1,6 +1,48 @@
-# Coding Exercises in JavaScript
+## Team
 
-A collection of small exercises, puzzles, and coding problems in JavaScript.
+*Team Name:* `#nondescript-mallard`
+*Participants:* [Serafin Wesnidge, @lumodon](https://github.com/lumodon)
+*JS Dev link:* [15 Coding Exercises](http://jsdev.learnersguild.org/goals/144-15_Coding_Exercises.html)
+
+## Installation Instructions
+
+1. Download the repo from github
+  1. Open your terminal and navigate to a projects folder if you have one
+  2. Type `git clone https://github.com/lumodon/coding-exercises-js.git`
+  3. Type `cd coding-exercises-js`
+2. Install the npm modules by typing `npm install`
+3. Run all the tests by typing `npm test`
+4. Run ESLint by typing `npm run lint`
+5. Write your review on the empty branch from the pull requests [here](#)
+
+## Specifications
+
+- [X] Artifact produced is a fork of the [coding-exercises-js](https://github.com/GuildCrafts/coding-exercises-js) repo.
+- [ ] Tests and correct implementations exist for the following exercises (it is recommended that you complete them in this order):
+  - [ ] 1. Guess The Number
+  - [ ] 2. Scrab-Bag
+  - [X] 3. String Indices
+  - [ ] 4. Fibonacci Bases
+  - [X] 5. The Disemvowling
+  - [X] 6. Where in the JSON?
+  - [ ] 7. Who Wants A Date?
+  - [ ] 8. Play it again, JavaScript!
+  - [X] 9. Parens-B-Gone
+  - [ ] 10. Resolving Symlinks
+  - [ ] 11. Lairotcaf
+  - [X] 12. String Me Along
+  - [ ] 13. Braille
+  - [ ] 14. String Permutations
+  - [ ] 15. Finite State Gate
+- [ ] Can run all tests with `npm test`.
+- [ ] All tests are passing.
+- [ ] Repository includes a README file with basic installation and setup instructions.
+- [ ] All dependencies are properly declared in `package.json`.
+- [ ] All major features are added via pull requests with a clear description and concise commit messages.
+- [ ] Code uses a linter and there are no linting errors.
+- [ ] Variables, functions, files, etc. have appropriate and meaningful names.
+- [ ] Functions are small and serve a single purpose.
+- [X] The artifact produced is properly licensed, preferably with the [MIT license][mit-license].
 
 ## Exercises
 
