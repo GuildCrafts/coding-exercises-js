@@ -3,6 +3,12 @@ import guessTheNumber from '../src/guessTheNumber'
 
 describe('guessTheNumber()', () => {
 
-  // Your tests here...
-  
+  it('should be a function', function(){
+    expect(guessTheNumber).to.be.a('function')
+  })
+
+  // it('randomly selects a number' (1-100), function(){
+  //
+  // })
+
 })

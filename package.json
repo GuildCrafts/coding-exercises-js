@@ -12,5 +12,8 @@
   },
   "scripts": {
     "test": "mocha --compilers js:babel-register"
+  },
+  "dependencies": {
+    "moment": "^2.18.1"
   }
 }
