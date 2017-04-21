@@ -53,10 +53,9 @@ for(let i = 0; i < string.length + 1; i++) {
    }
  }
  }
- console.log(letterArray)
 
  return finalWord
 
 }
 
-brailleTranslator("O.OO..O..O..O.O.O.O.O.O.O..OO..OOO.OO..OO.O.OOO.O.O.O.OO.O..")
+// brailleTranslator("O.OO..O..O..O.O.O.O.O.O.O..OO..OOO.OO..OO.O.OOO.O.O.O.OO.O..")

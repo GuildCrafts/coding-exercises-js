@@ -1,4 +1,4 @@
-export default function subtractTiles(letters) {
+function subtractTiles(letters) {
 
 let tiles = {
   A: 9,
@@ -58,7 +58,7 @@ function listCreate(object) {
 }
 
 
-function scrabBag(letters) {
+export default function scrabBag(letters) {
 
  let gameTiles = subtractTiles(letters);
 
