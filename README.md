@@ -4,16 +4,6 @@ A collection of small exercises, puzzles, and coding problems in JavaScript.
 
 ## Exercises
 
-### Guess The Number
-
-Write a program that will generate a number between 1 and 100. Your program will ask the user to guess the generated number.
-
-When the user types a guess, the program should tell them if they won (the guess matched the computer's number), if their guess was higher than the number the computer generated, OR if the guess was lower than the number the computer generated. Terminate the program if the user types "exit".
-
-Keep asking the user to input a number if the number differs from the computer's number (loops!).
-
----
-
 ### Scrab-Bag
 
 Scrabble (the game in which players remove tiles with letters on them from a bag and use them to create words on the game board) has a set number of 100 tiles.
@@ -369,6 +359,16 @@ arb
 rba
 rab
 ```
+
+---
+
+### Guess The Number
+
+Write a program that will generate a number between 1 and 100. Your program will ask the user to guess the generated number.
+
+When the user types a guess, the program should tell them if they won (the guess matched the computer's number), if their guess was higher than the number the computer generated, OR if the guess was lower than the number the computer generated. Terminate the program if the user types "exit".
+
+Keep asking the user to input a number if the number differs from the computer's number (loops!).
 
 ---
 
