@@ -2,7 +2,12 @@
   Function declaration for scrabBag and export statement making that
   function the default export from this module.
   Enforced argument requirements:
-    0. The argument count is 0.
+    0. The argument count is 2.
+    1. startTally is an object.
+    2. played is a string.
+    3. Every character in played is a key in startTally.
+    4. No character type occurs more times in played than its value in
+        startTally.
 */
 export default function scrabBag(startTally, played) {
   // If the arguments are superficially valid:
