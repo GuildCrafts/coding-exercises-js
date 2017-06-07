@@ -1,16 +1,61 @@
 {
   "name": "coding-exercises-js",
   "description": "A collection of small exercises, puzzles, and coding problems in JavaScript.",
+  "author": "Jonathan Pool",
+  "license": "MIT",
   "private": false,
   "version": "0.0.0",
+  "dependencies": {
+    "xregexp": ">=3.2.0"
+  },
   "devDependencies": {
-    "babel-cli": "^6.18.0",
-    "babel-preset-env": "^1.1.4",
-    "babel-register": "^6.18.0",
-    "chai": "~1.8.0",
-    "mocha": "2.0.1"
+    "babel-cli": ">=6.24.1",
+    "babel-preset-env": ">=1.5.1",
+    "babel-preset-latest": ">=6.24.1",
+    "babel-register": ">=6.24.1",
+    "chai": ">=4.0.0",
+    "chai-change": ">=2.1.2",
+    "eslint": ">=3.19.0",
+    "mocha": ">=3.4.2"
   },
   "scripts": {
-    "test": "mocha --compilers js:babel-register"
+    "build": "babel src -d lib",
+    "test": "mocha --compilers js:babel-register test/*.js",
+    "eslint": "./node_modules/eslint/bin/eslint.js src/ test/; exit 0",
+    "eslintfix": "./node_modules/eslint/bin/eslint.js --fix src/ test/; exit 0"
+  },
+  "bugs": {
+    "url": "https://github.com/jrpool/core-algorithms-cns/issues"
+  },
+  "homepage": "https://github.com/jrpool/core-algorithms-cns#readme",
+  "eslintConfig": {
+    "env": {
+      "node": true,
+      "browser": true,
+      "es6": true,
+      "mocha": true
+    },
+    "extends": "eslint:recommended",
+    "parserOptions": {
+      "sourceType": "module"
+    },
+    "rules": {
+      "indent": [
+        "error",
+        2
+      ],
+      "linebreak-style": [
+        "error",
+        "unix"
+      ],
+      "quotes": [
+        "error",
+        "single"
+      ],
+      "semi": [
+        "error",
+        "always"
+      ]
+    }
   }
 }

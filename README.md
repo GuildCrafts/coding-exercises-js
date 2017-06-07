@@ -2,6 +2,46 @@
 
 A collection of small exercises, puzzles, and coding problems in JavaScript.
 
+Goal 144 of (Learners Guild)[http://learnersguild.org]. [Base repository](https://github.com/GuildCrafts/coding-exercises-js).
+
+Project Name: statuesque-cow
+
+Project Members:
+
+[Jonathan Pool](https://github.com/jrpool)
+
+## Notes
+
+Any test files in which arrow function expressions could be but are not used
+are written to conform with the [recommendation][mocha] that “Passing arrow
+functions … to Mocha is discouraged”.
+
+## Installation and Setup
+
+0. These instructions presuppose that npm (https://nodejs.org/en/) is installed.
+
+1. Clone this repository into a local directory.
+
+2. In the local directory, install required dependencies (see package.json) by executing:
+
+    npm i
+
+3. In the local directory, perform the provided tests by executing:
+
+    npm test
+
+4. In the local directory, perform linting on the files in the `src` and `test`
+directories by executing:
+
+    npm run eslint
+
+## Usage and Examples
+
+Example of portion of output from `npm test`:
+
+```
+```
+
 ## Exercises
 
 ### Scrab-Bag
@@ -421,3 +461,8 @@ Gate: CLOSING
 Cycle complete.
 Gate: CLOSED
 ```
+## Resources
+
+[npm]: https://www.npmjs.com/
+[npm-documentation]: https://www.npmjs.com/package/documentation
+[mocha]: https://mochajs.org/#arrow-functions
