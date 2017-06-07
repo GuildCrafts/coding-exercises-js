@@ -1,5 +1,5 @@
 // Identify a table of the initial distribution of tiles for English Scrabble.
-export default const englishTally = {
+const englishTally = {
   A: 9,
   B: 2,
   C: 2,
@@ -28,3 +28,5 @@ export default const englishTally = {
   Z: 1,
   _: 2
 };
+
+export default englishTally;

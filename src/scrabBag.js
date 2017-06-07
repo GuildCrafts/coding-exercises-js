@@ -9,10 +9,11 @@ export default function scrabBag(startTally, played) {
   if (
     arguments.length === 2
     && typeof startTally === 'object'
-    && typeof played = 'string'
+    && ! Array.isArray(startTally)
+    && typeof played === 'string'
   ) {
     // Identify an array of the tile types in the game.
-    const tileTypes = startTally.keys();
+    const tileTypes = Object.keys(startTally);
     // For each played tile:
     for (let i = 0; i < played.length; i++) {
       // If its type is not in the game:
